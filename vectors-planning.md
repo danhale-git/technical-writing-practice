@@ -10,7 +10,7 @@ Within this evening as I would like to send it to the recruiter tomorrow.
 ##### Process
 - Write first draft.
 - Review.
-- Create necessary images.
+- Create required images.
 - Write final draft.
 - Review.
 
