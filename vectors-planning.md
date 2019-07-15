@@ -5,7 +5,7 @@ A single, small document with a very simple explanation of vectors in the contex
 Should provide readers with the basic information and usage context to read about common vector-related concepts such as magnitude and identify where vectors can be used in their project.
 
 ##### Timing
-Within this evening as I would like to send it to the recruiter tomorrow.
+Very fast as I would like to send it to the recruiter today.
 
 ##### Process
 - Write first draft.
