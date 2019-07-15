@@ -1,4 +1,4 @@
-#### Planning
+## Planning
 
 ##### Scope
 A single, small document with a very simple explanation of vectors in the context of Unity and game development.
