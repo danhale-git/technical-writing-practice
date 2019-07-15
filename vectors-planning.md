@@ -16,3 +16,11 @@ Very fast as I would like to send it to the recruiter today.
 
 ##### Audience
 Complete beginners who do not have past experience with geometry or vectors.
+
+##### Structure
+Narrative structure will be appropriate for this document as it's a simple explanation of a general concept.
+
+- Explain what the word _vector_ refers to.
+- Talk about vectors and axis in the context of Unity world space. (also give screen space and UI a passing mention?)
+- Briefly list things in game development that vectors are used to describe. 
+- Describe each listed thing in a little more details with images.
