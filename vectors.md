@@ -1,5 +1,5 @@
 # Introduction to vectors
-A _vector_ is a collection of numbers used to describe a length and/or a direction.
+A _vector_ is a collection of numbers which can describe a position, length and direction.
 
 In game development vectors store 2 or 3 numbers and are used to describe things in 2D or 3D space, such as position and direction. They can also describe changes in position and direction e.g. movement. Movement is important for game development as almost all games involve moving entities.
 
