@@ -5,7 +5,13 @@ In game development vectors store 2 or 3 numbers and are used to describe things
 
 It is useful to think of a vector as two sets of coordinates, where one set is all 0s (the _origin_) and the other set is the vector numbers (the _point_). The vector is the line between the origin and the point.
 
-[Image showing how a vector can describe length and direction, emphasis on there being two points, one of which is 0,0]
+<p align="center">
+<img src="https://imgur.com/FMGMopZ.png">
+</p>
+<p align="center">
+2D vector with the value 3,3. The vector is a line stretching from 0,0 to 3,3.
+</p>
+
 
 - The length of the vector is the distance between the origin and the point.
 - The direction of the vector is the direction from the origin to the point. 
@@ -28,25 +34,37 @@ In Unity we commonly work with 2D and 3D vectors using the Vector2 and Vector3 c
 - [Vector2](https://docs.unity3d.com/ScriptReference/Vector2.html) stores 2 numbers, referring to any two of the three axis. Able to describe things in 2 dimentions.
 
 ### Using vectors
-Length and direction can describe a number of things. Most common are position, movement, speed and direction. Speed is not usually stored as a vector variable as only one number is required to describe it. But it is calculated using a vector, by determining the vector's _length_.
+_**TALK ABOUT VECTOR MATHS OPERATIONS AND MENTION THAT THE EXAMPLES BELOW ARE 2D BUT THE SAME RULES APPLY IN 3D**_
+Length and direction can describe a number of things. Most common are position, movement, speed and direction. Speed is not usually stored as a vector variable because only one number is required to describe it. But it is calculated using a vector, by determining the vector's _length_.
 
 #### Position
 This vector has been used to describe a position. This is an **offset from the coordinates 0,0**.
-
-[Image showing a 2D game character in a graph, with a vector position of 1,2]
+<p align="center">
+<img src="https://imgur.com/9PIFPoS.png">
+</p>
+<p align="center">
+The position vector is 1,2.
+</p>
 
 #### Movement
-This vector has been used to describe a change in position. This is an **offset from the position vector**.
-
-[Image showing the character in a new position of 2,3 and the vector 1,1 describing the difference]
+This vector has been used to describe a change in position. This has been **offset from the position vector** by adding the two vectors.
+<p align="center">
+<img src="https://imgur.com/XgahpiQ.png">
+</p>
+<p align="center">
+The movement vector is 1,1. Movement is applied by adding the movement vector to the position vector. The final position is 2,3.
+</p>
 
 #### Speed
-By describing movement, we also describe speed. Speed is calculated using **_length_ of the movement vector** otherwise known as _magnitude_. The Vector2 and Vector3 classed have a convenience property called magnitude that returns the length of the vector. If the movement vector is applied to a game object once per second, that object's speed is the length of that vector per second.
+By describing movement, we also describe speed. Speed is calculated using **_length_ of the movement vector** otherwise known as _magnitude_. The Vector2 and Vector3 classes have a convenience property called [magnitude](https://docs.unity3d.com/ScriptReference/Vector2-magnitude.html) that returns the length of the vector. If a movement vector is added to a game object's position once per second, the object's speed per second is the length of the movement vector.
 
-[Image showing the movement vector and highlighting the length as speed]
 
 #### Direction
 The movement vector also described a direction. The length of a direction vector is irrelevant because changes in the length of a vector do not change it's direction. For this reason we usually _normalise_ a  vector before using it as a direction. All normalised vectors have a length of 1. Failing to normalise a vector which describes a direction can cause unexpected results when performing certain operations on it.
-
-[Image showing the movement vector normalised emphasising direction]
+<p align="center">
+<img src="https://imgur.com/W9s5O5f.png">
+</p>
+<p align="center">
+On the left is a vector of 1,1, with a length of roughly 1.4. The vector on the right has been _normalised_ (reduced to a length or _magnitude_ of 1). The vector is now roughly 0.7,0.7. Notice it still points in the same direction.
+</p>
 
