@@ -27,7 +27,7 @@ Narrative structure will be appropriate for this document as it's a simple expla
 - Briefly list things in game development that vectors are used to describe. 
 - Describe each listed thing in a little more details with images.
 
-### Outstanding issues after 'final' draft
+## Outstanding issues
 - Is there a better word than 'things' here? Something generic but not _that_ generic.
 
 _...stores 2 numbers, referring to any two of the three axes. This can describe **things** in 2 dimensions._
@@ -37,3 +37,7 @@ _...stores 2 numbers, referring to any two of the three axes. This can describe 
 - Is there a better way to say this than "...direction of the vector is the direction..."?
 
 _The direction of the vector is the direction from the origin to the point._
+
+- Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.
+
+- Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.
