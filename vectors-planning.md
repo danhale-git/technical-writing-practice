@@ -32,7 +32,7 @@ Narrative structure will be appropriate for this document as it's a simple expla
 
 _...stores 2 numbers, referring to any two of the three axes. This can describe **things** in 2 dimensions._
 
-- The images leave a lot to be desired but they do the job for the purpose of this exdef
+- The images leave a lot to be desired but they do the job for the purpose of this exercise
 
 - Is there a better way to say this than "...direction of the vector is the direction..."?
 
