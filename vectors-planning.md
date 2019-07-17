@@ -62,3 +62,5 @@ _The direction of the vector is the direction from the origin to the point._
 _It is not an angle (0º to 360º) but it can be converted to an angle._
 
 - 'written in Unity' should be 'written in a Unity C# script'
+
+- Graph image is too large.
