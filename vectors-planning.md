@@ -32,12 +32,12 @@ Narrative structure will be appropriate for this document as it's a simple expla
 
 _...stores 2 numbers, referring to any two of the three axes. This can describe **things** in 2 dimensions._
 
-- The images leave a lot to be desired but they do the job for the purpose of this exercise
+- The image is not good, need to start again there.
 
 - Is there a better way to say this than "...direction of the vector is the direction..."?
 
 _The direction of the vector is the direction from the origin to the point._
 
-- Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.
+~- Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.~ (removed those sections)
 
-- Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.
+~- Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.~ (removed those sections)
