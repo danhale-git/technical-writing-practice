@@ -1,18 +1,25 @@
 # Introduction to vectors
 A _vector_ is a collection of numbers which can describe a position, length and direction.
 
-In game development vectors store 2 or 3 numbers and are used to describe things in 2D or 3D space, such as position and direction. They can also describe changes in position and direction e.g. movement. Movement is important for game development as almost all games involve moving entities.
+In game development we usually work with 2D or 3D vectors (collections of 2 or 3 numbers). They can describe positions in 2D and 3D space as well as changes in position e.g. movement. Position and movement are important for game development as almost all games involve moving entities.
 
-It is useful to think of a vector as two sets of coordinates on a graph, where one set is all zeros (the _origin_) and the other set is the vector's collection of numbers (the _point_). The vector is the line between the origin and the point. The vector shown below is 2D (has two numbers) and has a value of 3 and 3 or <3, 3>.
+It is useful to think of a vector as two sets of coordinates on a graph, where one set is all zeros (the _origin_) and the other set is the vector's collection of numbers. The vector is the line between the origin and the vector coordinates. The vector shown below is 2D (has two numbers) and has a value of 3 and 3 or <3, 3>.
 <p align="center">
 <img src="https://imgur.com/7V4X4Hk.png">
 </p>
 <p align="center">
-2D vector with the value <3, 3>. The vector is a line stretching from <0, 0> to <3, 3>.
+2D vector with the value <3, 3>.
 </p>
 
 - The **length** of the vector is the distance between the origin and the point.
-- The **direction** of the vector is the direction from the origin to the point. 
+It is also known as the _magnitude_.
+- The **direction** of the vector is the direction from the origin to the point.
+It is not an angle (0º to 360º) but it can be converted to an angle.
+
+This vector would be written in Unity as:
+```
+var myVector = new Vector2(3, 3);
+```
 
 ## Vectors in Unity
 Unity uses 3 axes: X, Y and Z. The numbers in vectors usually relate to these axes.
@@ -43,7 +50,7 @@ Performing a mathematical operation on two 2D or two 3D vectors will result in e
 Vector2 sum = vectorA + vectorB;
 Vector2 sum = new Vector2(vectorA.x + vectorB.x, vectorA.y + vectorB.y)
 ```
-Such operations cannot be performed implicitly on two vectors of different types. One of the lines below will result in an error:
+Such operations cannot be performed implicitly on two vectors of different types (one 2D and one 3D). One of the lines below will result in an error:
 ```
 var vector2D = new Vector2(1, 2);
 var vector3D = new Vector3(3, 4, 5);
