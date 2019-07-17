@@ -5,7 +5,7 @@ In game development vectors store 2 or 3 numbers and are used to describe things
 
 It is useful to think of a vector as two sets of coordinates on a graph, where one set is all zeros (the _origin_) and the other set is the vector's collection of numbers (the _point_). The vector is the line between the origin and the point. The vector shown below is 2D (has two numbers) and has a value of 3 and 3 or <3, 3>.
 <p align="center">
-<img src="https://imgur.com/MkYX0XZ.png">
+<img src="https://imgur.com/7V4X4Hk.png">
 </p>
 <p align="center">
 2D vector with the value <3, 3>. The vector is a line stretching from <0, 0> to <3, 3>.
