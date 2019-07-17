@@ -28,7 +28,7 @@ Narrative structure will be appropriate for this document as it's a simple expla
 - Describe each listed thing in a little more details with images.
 
 ## Team review 1
-I reviewed this document briefly with a colleague.
+I reviewed this document briefly with a colleague. - [**changes**](https://github.com/danhale-git/technical-writing-practice/commit/928d23309f13ad9bc0cf32a3c7fe114a9f2d177c)
 - Axis plural is Axes
 - i.e. used where e.g. should be used in the first paragraph
 - The Direction section is confusing as all vectors have a directions and length. Adjusted language to read 'vectors AS directions'.
