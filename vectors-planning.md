@@ -47,6 +47,7 @@ _In Unity we usually work with 2D and 3D vectors using the Vector2 and Vector3 c
 - 'helper members' and 'convenience members' are both used. The word 'members' while common may not be suitable for a beginner's document like this. Consider defining the word or replacing it with something non-technical.
 
 ## Outstanding issues
+- **See Team review 2.**
 - Is there a better word than 'things' here? Something generic but not _that_ generic.
 
 _...stores 2 numbers, referring to any two of the three axes. This can describe **things** in 2 dimensions._
