@@ -45,22 +45,24 @@ _awaiting feedback_
 
 _...stores 2 numbers, referring to any two of the three axes. This can describe **things** in 2 dimensions._
 
-- The image is not good, need to start again there.
+- ~The image is not good, need to start again there.~ Done
 
 - Is there a better way to say this than "...direction of the vector is the direction..."?
 
 _The direction of the vector is the direction from the origin to the point._
 
-~- Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.~ (removed those sections)
+- ~Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.~ (removed those sections)
 
-~- Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.~ (removed those sections)
+- ~Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.~ (removed those sections)
 
 - Is it appropriate to mention Unity.Mathematics and float2/float3 etc? Should there be a "Unity.Mathematics for UnityEngine.Vector* users" page providing alternatives for the Vector2/3 built in convenience members? This was a challenge I faced when switching to Unity.Mathematics and I no longer use the Vector2/3 classes.
 
-~- This sentence could be confusing. Perhaps clarify the 'a vector can be converted...'. Might also need further clarification on normalizing vectors before converting them to angles. Maybe just remove it.~ Referred to 'the angle between the directions of two vectors' instead.
+- ~This sentence could be confusing. Perhaps clarify the 'a vector can be converted...'. Might also need further clarification on normalizing vectors before converting them to angles. Maybe just remove it.~ Referred to 'the angle between the directions of two vectors' instead.
 
 _It is not an angle (0º to 360º) but it can be converted to an angle._
 
-~- 'written in Unity' should be 'written in a Unity C# script'~ Done.
+- ~'written in Unity' should be 'written in a Unity C# script'~ Done.
 
-~- Graph image is too large.~ Made it smaller.
+- ~Graph image is too large.~ Made it smaller.
+
+- 'Point' still used in the bullets of length and direction in the first section. Should probably use 'coordinates'.
