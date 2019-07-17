@@ -27,6 +27,19 @@ Narrative structure will be appropriate for this document as it's a simple expla
 - Briefly list things in game development that vectors are used to describe. 
 - Describe each listed thing in a little more details with images.
 
+## Team review 1
+I reviewed this document briefly with a colleague.
+- Axis plural is Axes
+- i.e. used where e.g. should be used in the first paragraph
+- The Direction section is confusing as all vectors have a directions and length. Adjusted language to read 'vectors AS directions'.
+- Material relating to Unity classes and axes should be in the same section.
+- Language prior to the introduction of Vector3 refers to Vector3 assuming the reader is familiar with it.
+- Unity Vector2/3 helpers are not only functions but properties too
+- Vectors as directions paragraph is a bit repetitive
+
+## Team review 2
+_awaiting feedback_
+
 ## Outstanding issues
 - Is there a better word than 'things' here? Something generic but not _that_ generic.
 
