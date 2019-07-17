@@ -54,3 +54,11 @@ _The direction of the vector is the direction from the origin to the point._
 ~- Position and Movement sections are possibly unclear due to poor quality images and use of the word offset.~ (removed those sections)
 
 ~- Position and Movement sections duplicate the Addition section in _Understanding Vector Arithmetic_.~ (removed those sections)
+
+- Is it appropriate to mention Unity.Mathematics and float2/float3 etc? Should there be a "Unity.Mathematics for UnityEngine.Vector* users" page providing alternatives for the Vector2/3 built in convenience members? This was a challenge I faced when switching to Unity.Mathematics and I no longer use the Vector2/3 classes.
+
+- This sentence could be confusing. Perhaps clarify the 'a vector can be converted...'. Might also need further clarification on normalizing vectors before converting them to angles. Maybe just remove it.
+
+_It is not an angle (0º to 360º) but it can be converted to an angle._
+
+- 'written in Unity' should be 'written in a Unity C# script'
