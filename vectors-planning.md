@@ -57,10 +57,10 @@ _The direction of the vector is the direction from the origin to the point._
 
 - Is it appropriate to mention Unity.Mathematics and float2/float3 etc? Should there be a "Unity.Mathematics for UnityEngine.Vector* users" page providing alternatives for the Vector2/3 built in convenience members? This was a challenge I faced when switching to Unity.Mathematics and I no longer use the Vector2/3 classes.
 
-- This sentence could be confusing. Perhaps clarify the 'a vector can be converted...'. Might also need further clarification on normalizing vectors before converting them to angles. Maybe just remove it.
+~- This sentence could be confusing. Perhaps clarify the 'a vector can be converted...'. Might also need further clarification on normalizing vectors before converting them to angles. Maybe just remove it.~ Referred to 'the angle between the directions of two vectors' instead.
 
 _It is not an angle (0º to 360º) but it can be converted to an angle._
 
-- 'written in Unity' should be 'written in a Unity C# script'
+~- 'written in Unity' should be 'written in a Unity C# script'~ Done.
 
-- Graph image is too large.
+~- Graph image is too large.~ Made it smaller.
