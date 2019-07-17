@@ -38,7 +38,13 @@ I reviewed this document briefly with a colleague. - [**changes**](https://githu
 - Vectors as directions paragraph is a bit repetitive
 
 ## Team review 2
-_awaiting feedback_
+I posted the document on my small Unity ECS discord.
+- The second line below repeats _usually work with 2D or 3D vectors_ albeit in a slightly different context. The second line should be something like _In Unity the Vector2 and Vector3 classes are commonly used to work with vectors._ (This might also be a good opportunity to give Unity.Mathematics a passing mention)
+
+_In game development we usually work with 2D or 3D vectors (collections of 2 or 3 numbers)._
+
+_In Unity we usually work with 2D and 3D vectors using the Vector2 and Vector3 classes._
+- 'helper members' and 'convenience members' are both used. The word 'members' while common may not be suitable for a beginner's document like this. Consider defining the word or replacing it with something non-technical.
 
 ## Outstanding issues
 - Is there a better word than 'things' here? Something generic but not _that_ generic.
