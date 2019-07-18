@@ -32,7 +32,7 @@ Positive numbers (e.g. 10) refer to right, up and forward and negative numbers (
 |Y|Green|Up|Down|
 |Z|Blue|Forward|Back|
 
-In Unity we usually work with 2D and 3D vectors using the Vector2 and Vector3 classes. These store collections of 2 or 3 numbers and also provide helper members for operating on vectors such as [Vector3.Angle()](https://docs.unity3d.com/ScriptReference/Vector3.Angle.html). An Angle() method also exists in the Vector2 class, along with a number of other convenience members which exist in both Vector2 and Vector3. Most vector related operations and algorithms will either work with both 2D and 3D vectors, or have equivalents for both types.
+In Unity the Vector2 and Vector3 classes are commonly used to work with vectors. These store collections of 2 and 3 floats respectively. They also provide convenience methods and properties for operating on vectors, such as [Vector3.Angle()](https://docs.unity3d.com/ScriptReference/Vector3.Angle.html) and [Vector3.magnitude](https://docs.unity3d.com/ScriptReference/Vector3-magnitude.html). These, along with a number of other convenience members, exist in both the Vector3 and Vector2 classes. Most vector related operations and algorithms will either work with both 2D and 3D vectors, or have equivalents for both types.
 
 - [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) stores 3 floats and can describe things in 3 dimensions.
 
